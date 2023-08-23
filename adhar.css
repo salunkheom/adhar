@@ -1,0 +1,110 @@
+.head {
+    display: flex;
+    
+
+}
+
+#img1 {
+
+    position: fixed;
+    left: 50px;
+    top: 25px;
+}
+
+#img2 {
+
+    position: fixed;
+    right: 20px;
+
+}
+
+hr {
+    border: 2px #364d58 solid;
+    border-radius: 8px;
+    margin-top: 110px;
+}
+
+.footer {
+    margin-left: -5px;
+    position: fixed;
+    bottom: 0%;
+    background-color: #0f1951;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 15px;
+    padding-bottom: 22px;
+    color: #fcfcfc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mid {
+    position: absolute;
+    left: 30%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #ffffff;
+    border: #c4c4c4 1px solid;
+}
+
+input[type=text],
+input[type=number] {
+
+    width: 100%;
+    padding: px 60px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 2px solid #ececec;
+    border-bottom-color: #0e0606;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+#captcha {
+    width: 100%;
+    padding: 5px 150px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #231d1d;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: -webkit-center;
+}
+
+#otp {
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 60px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 2px solid #323041;
+    color: white;
+    background:linear-gradient(to right, #1c1c54 , #3676c4);
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    font-size: 20px;
+}
+
+#login {
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 60px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 2px solid #323041;
+    color: white;
+    background-color: #1c1c54;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
