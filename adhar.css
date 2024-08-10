@@ -1,51 +1,37 @@
-.head {
-    display: flex;
-justify-content:space-between;
-    
-
-}
-
-#img1 {
-
-    position: relative;
-    left: 50px;
-    top: 25px;
-}
-
-#img2 {
-
-    position: relative;
-    right: 20px;
+.head {    display:flex;
+       flex-direction:row;
 
 }
 
 hr {
     border: 2px black solid;
+    width:100%;
     border-radius: 5px;
     margin-top: -15px;
     
 }
 
 .footer {
-    margin-left: -5px;
-    position: fixed;
-    bottom: 0%;
+    display:flex;
+    justify-content:center;
+    margin-top:15px;
+    margin-left: 100px;
     background-color: #0f1951;
-    width: 100%;
+    position:relative;
     text-align: center;
     font-size: 15px;
     font-weight: bolder;
-    padding: 10px;
-    
+    padding: 5px;
+    position:fixed;
     color: #fcfcfc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mid {
-    position: relative;   
+      
     display: flex;
     justify-content: center;
-    padding: 0% 30% 0% 30%;
+    padding:0% 0% 0% 120%;
     padding-bottom: 5px;
     background-color: #ffffff;
     /* border: #c4c4c4 1px solid; */
@@ -54,8 +40,8 @@ hr {
 input[type=text],
 input[type=number] {
 
-    width: 100%;
-    padding: px 60px;
+    width: ;
+    padding:  0px;
     margin: 18px 0;
     display: inline-block;
     border: 2px solid #ececec;
