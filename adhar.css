@@ -1,27 +1,29 @@
 .head {
     display: flex;
+justify-content:space-between;
     
 
 }
 
 #img1 {
 
-    position: fixed;
+    position: relative;
     left: 50px;
     top: 25px;
 }
 
 #img2 {
 
-    position: fixed;
+    position: relative;
     right: 20px;
 
 }
 
 hr {
-    border: 2px #364d58 solid;
-    border-radius: 8px;
-    margin-top: 110px;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin-top: -15px;
+    
 }
 
 .footer {
@@ -33,21 +35,20 @@ hr {
     text-align: center;
     font-size: 15px;
     font-weight: bolder;
-    padding: 15px;
-    padding-bottom: 22px;
+    padding: 10px;
+    
     color: #fcfcfc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mid {
-    position: absolute;
-    left: 30%;
-    width: 500px;
+    position: relative;   
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 0% 30% 0% 30%;
+    padding-bottom: 5px;
     background-color: #ffffff;
-    border: #c4c4c4 1px solid;
+    /* border: #c4c4c4 1px solid; */
 }
 
 input[type=text],
@@ -83,7 +84,7 @@ input[type=number] {
     display: inline-block;
     border: 2px solid #323041;
     color: white;
-    background:linear-gradient(to right, #1c1c54 , #3676c4);
+    background: linear-gradient(to right, #1c1c54, #3676c4);
     box-sizing: border-box;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -98,8 +99,8 @@ label {
 #login {
     border-radius: 5px;
     width: 100%;
-    padding: 15px 60px;
-    margin: 18px 0;
+    padding: 1px px;
+    margin: -8px 0px;
     display: inline-block;
     border: 2px solid #323041;
     color: white;
@@ -108,3 +109,7 @@ label {
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
