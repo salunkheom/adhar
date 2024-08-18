@@ -1,37 +1,40 @@
-.head {    display:flex;
-       flex-direction:row;
+.head {
+    display: flex;
+    justify-content:space-between;
+  
 
+   
 }
 
+
 hr {
-    border: 2px black solid;
-    width:100%;
+    border: 1px black solid;
     border-radius: 5px;
-    margin-top: -15px;
+    margin-top: 5px;
+
     
 }
 
 .footer {
-    display:flex;
-    justify-content:center;
-    margin-top:15px;
-    margin-left: 100px;
+    margin-left: -5px;
+    position: fixed;
+    bottom: 0%;
     background-color: #0f1951;
-    position:relative;
+    width: 100%;
     text-align: center;
     font-size: 15px;
     font-weight: bolder;
-    padding: 5px;
-    position:fixed;
+    padding: 10px;
+    
     color: #fcfcfc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mid {
-      
+    flex-wrap:wrap;
     display: flex;
     justify-content: center;
-    padding:0% 0% 0% 120%;
+    padding: 0% 30% 0% 30%;
     padding-bottom: 5px;
     background-color: #ffffff;
     /* border: #c4c4c4 1px solid; */
@@ -40,8 +43,8 @@ hr {
 input[type=text],
 input[type=number] {
 
-    width: ;
-    padding:  0px;
+    width: 100%;
+    padding: px 60px;
     margin: 18px 0;
     display: inline-block;
     border: 2px solid #ececec;
@@ -65,14 +68,14 @@ input[type=number] {
 #otp {
     border-radius: 5px;
     width: 100%;
-    padding: 15px 60px;
-    margin: 18px 0;
+    padding: 10px 20px;
+    margin: 10px 0;
     display: inline-block;
     border: 2px solid #323041;
     color: white;
     background: linear-gradient(to right, #1c1c54, #3676c4);
     box-sizing: border-box;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -86,7 +89,7 @@ label {
     border-radius: 5px;
     width: 100%;
     padding: 1px px;
-    margin: -8px 0px;
+    margin: 10px 0px;
     display: inline-block;
     border: 2px solid #323041;
     color: white;
