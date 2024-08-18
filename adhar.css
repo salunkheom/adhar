@@ -8,7 +8,7 @@
 
 
 hr {
-    border: 1px black solid;
+    border: 1px #0b0000 solid;
     border-radius: 5px;
     margin-top: 5px;
 
@@ -16,13 +16,13 @@ hr {
 }
 
 .footer {
-    margin-left: -5px;
+    margin-left: ;
     position: fixed;
     bottom: 0%;
     background-color: #0f1951;
     width: 100%;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bolder;
     padding: 10px;
     
@@ -31,10 +31,13 @@ hr {
 }
 
 .mid {
-    flex-wrap:wrap;
+
+    
     display: flex;
     justify-content: center;
-    padding: 0% 30% 0% 30%;
+    flex-wrap:wrap;
+   padding:auto;
+    width:100%;
     padding-bottom: 5px;
     background-color: #ffffff;
     /* border: #c4c4c4 1px solid; */
@@ -55,7 +58,7 @@ input[type=number] {
 
 #captcha {
     width: 100%;
-    padding: 5px 150px;
+    padding: 5px 15px;
     margin: 8px 0;
     display: inline-block;
     border: 2px solid #231d1d;
@@ -102,3 +105,25 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
+@media screen and (width > 1023px) {
+    .mid { 
+        padding:0px 250px;
+
+}
+       .footer {
+    
+    font-size: 20px;
+    
+}
+}
+@media screen and (width > 1439px) {
+    .mid { 
+        padding:0px 400px;
+
+}
+    .footer {
+    
+    font-size: 20px;
+    
+}
+}
